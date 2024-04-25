@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
               });
             },
           ),
-          Spacer(),
+          const Spacer(),
           HeightWidget(
             height: personModel.height,
             onChanged: (height) {
@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
               });
             },
           ),
-          Spacer(),
+          const Spacer(),
           Padding(
             padding: const EdgeInsets.symmetric(
               horizontal: 16.0,
